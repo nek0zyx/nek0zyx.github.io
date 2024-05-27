@@ -1,1 +1,1 @@
-# moved to [nek0zyx.pages.gay](nek0zyx.pages.gay)
+# moved to [nek0zyx.pages.gay](https://nek0zyx.pages.gay)
