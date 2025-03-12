@@ -4,6 +4,27 @@
         <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
     </head>
     <body>
+        <!--Additional styling-->
+        <style>
+            .profile-info {
+                display: flex;
+                align-items: left;
+                justify-content: left;
+            }
+            
+            .imagy {
+                max-width: 25%;
+                max-height:15%;
+                float: left;
+            }
+            
+            .profile-un {
+                font-size: 20px;
+                padding-left: 20px;
+                padding-top: 20%;
+                float: left;
+            }
+        </style>
         <!--Top bar-->
         <ul role="menu-bar">
             <li role="menu-item" tabindex="0" aria-haspopup="true">
@@ -51,8 +72,17 @@
             <div class="separator"></div>
 
             <div class="window-pane">
+                <div class="profile-info">
+                    <img class="imagy" src="https://gravatar.com/avatar/d9beee1bbcaa472a717b4d2668c72c52">
+                    <hgroup>
+                        <h1> Sàm Londrois </h1>
+                        <small>@nek0zyx</small>
+                    </hgroup>
+                </div>
+                <p>
                 hi, im sàm! im a transfem living in central europe with an interest in tech :p <br>
                 use the global menu to navigate!
+                </p>
             </div>
         </div>
         <!--Buttons window-->
